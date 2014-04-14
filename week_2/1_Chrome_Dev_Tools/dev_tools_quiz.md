@@ -36,4 +36,10 @@ The text is part of the image. You would need an image editor to change the text
   * What is the largest image on the website? 
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
 
+Largest image: http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png
+
+To find the largest image you go into the Network pane and sort by size.
+
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?
+
+By reformatting their images they can remove 885.9KiB. By deferring parsing of Javascript they can cut 590.9KiB.
