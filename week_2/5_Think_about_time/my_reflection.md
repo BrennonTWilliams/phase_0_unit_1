@@ -14,4 +14,6 @@ I generally have trouble sleeping. If I have a decent amout of work to do the ne
 
 I really enjoyed reading the articles on meditation. For my Honors Biology Final Research Paper in high school I looked at 3D brain imaging of meditation participants. After completing the paper and seeing first-hand how much meditation can do, I started to put in a few minutes a day. It helps me stay focused throughout the day, and has a noticeable impact on my life.
 
+I use two apps to make sure I stay on top of everything. Any.do manages my daily to-do lists, and HabitRPG ensures that every day I write, code, and excercise.
+
 My "overall plan" is to basically do what I've always done: work long and smart hours, balance work with excercise and social outings, and enjoy the sense of accomplishment I get when I finish an assignment.
