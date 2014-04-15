@@ -9,3 +9,6 @@ Discuss the following:
 * What would you like to add or change about the site next?
 * Was it difficult to apply the material you learned? Did you find anything in your research you thought was super cool?
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+* 
+
+I've noticed there are copies of reflection files posted by DBC. I wasn't sure which one to use so I decided to stick with the original reflections in the first file. If you're reading this, you're reading a copy.
