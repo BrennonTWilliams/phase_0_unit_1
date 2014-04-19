@@ -184,3 +184,11 @@ this.attackXY(50,52);
 
 //While I understand the appeal, I'm not crazy about this method of learning. It is too slow for me and involves
 // a lot of tedium. I am glad I tried it out though.
+
+
+//What is this referring to? Think programming-wise rather than in the terms of the game.
+//This refers to the object we have loaded
+//What does the () do in JavaScript?
+//Encloses the parameters
+//What is the point of the semicolons?
+//show the end of a line
