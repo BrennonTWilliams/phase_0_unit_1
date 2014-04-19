@@ -46,7 +46,7 @@ this.attackNearbyEnemy();
 
 this.attackNearbyEnemy();
 
-//MISSION 3: Drink Me Complete
+//MISSION 3: Drink Me
 
 //move right, attack, right, down, up, right, attack
 
@@ -59,7 +59,38 @@ this.moveUp();
 this.moveRight();
 this.attackNearbyEnemy();
  
- 
+
+MISSION 4: Taunt the Guards
+
+//uncomment code, right, righ, up, right, taunt, down, right, up, right, right
+
+//SOLUTION
+this.moveRight();
+this.bustDownDoor();
+
+// Delete the "//" in front of each line below.
+this.moveRight();
+this.say("Hey there!");
+this.moveLeft();
+this.moveLeft();
+this.say("Attack!");
+
+// Now get Phoebe to follow through the dungeon.
+this.moveRight();
+this.say("Follow me.");
+
+this.moveRight();
+this.moveRight();
+this.moveUp()
+this.moveRight();
+this.say("Hey there!");
+this.moveDown();
+this.moveRight();
+this.moveUp();
+this.moveRight();
+this.moveRight();
+
+
  
 // Reflection:
 // Write your reflection here.
