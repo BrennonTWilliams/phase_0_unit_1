@@ -45,7 +45,19 @@ this.moveUp();
 this.attackNearbyEnemy();
 
 this.attackNearbyEnemy();
- 
+
+//MISSION 3: Drink Me Complete
+
+//move right, attack, right, down, up, right, attack
+
+//SOLUTION
+this.moveRight();
+this.attackNearbyEnemy();
+this.moveRight();
+this.moveDown();
+this.moveUp();
+this.moveRight();
+this.attackNearbyEnemy();
  
  
  
