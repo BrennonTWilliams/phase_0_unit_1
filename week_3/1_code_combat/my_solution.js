@@ -60,7 +60,7 @@ this.moveRight();
 this.attackNearbyEnemy();
  
 
-MISSION 4: Taunt the Guards
+//MISSION 4: Taunt the Guards
 
 //uncomment code, right, righ, up, right, taunt, down, right, up, right, right
 
@@ -91,6 +91,96 @@ this.moveRight();
 this.moveRight();
 
 
+//MISSION 5: It's a trap
+
+//down, down, taunt, up, up
+
+//SOLUTION
+// Taunt the Ogre and run for cover!
+this.moveDown();
+this.moveDown();
+this.say("Hey there!");
+this.moveUp();
+this.moveUp();
+
+//MISSION 6: Break the Prison
+
+//test if foe, return false if it is (very buggy level)
+
+//SOLUTION
+// Write this isFriend(name) spell to tell friend from foe.
+// Return true for friends' names, false for ogres' names.
+if(name === "William")
+    return true;
+if(name === "Krogg" || "Gort" || "Gull Thack" || "Brack")
+    return false;  // <-- Start here; Krogg is not a friend!
+
+return true;
+
+//MISSION 7: Taunt
+
+//taunt, up, taunt x3, down
+
+//SOLUTION
+this.say("Hey!");
+
+// Lure the ogre right into your arrow trap
+// by saying a few more things at him.
+// Anything works!
+this.moveUp();
+this.say("Heya");
+this.say("Hello");
+this.say("Howdy");
+this.moveDown();
+
+//MISSION 8: Cowardly Taunt
+
+//move in range of ogers, follow preset path behind towers
+
+//SOLUTION
+this.moveXY(50, 10);
+this.moveXY(50, 16);
+this.moveXY(63, 20);
+this.moveXY(70, 10);  // This is a safe spot.
+
+//MISSION 9: Commanding Followers
+
+//move to troops, recruit, move down towards enemies, order attack, attack
+
+//SOLUTION
+this.moveXY(49, 66);
+this.moveXY(60, 63);
+this.moveXY(75, 63);
+this.say("Hail, friends!");
+this.say("follow me");
+this.moveXY(60, 30);
+this.say("attack!");
+this.attackNearbyEnemy();
+
+// Saying anything with "follow" in it will get nearby soldiers
+// to follow you
+
+// Saying anything with "attack" will send nearby troops into
+// a battle mode.
+
+// Make sure Tharin is safe!
+
+//MISSION 10: Mobile Artillery
+
+//move predetermined route/attack, move up, attack right enemies, move up, attack left enemies
+
+//SOLUTION
+this.moveXY(30, 26);  // Move into range
+this.attackXY(46, 5);  // Shoot once in the middle of the ogres
+this.moveXY(62,28);
+this.attackXY(71, 53);
+this.attackXY(71, 45);
+this.moveXY(58,37);
+this.attackXY(50,64);
+this.attackXY(50,52);
  
 // Reflection:
 // Write your reflection here.
+
+//While I understand the appeal, I'm not crazy about this method of learning. It is too slow for me and involves
+// a lot of tedium. I am glad I tried it out though.
